@@ -1,0 +1,10 @@
+<%- include("../partials/header.ejs", {title:"Error"}) %>
+
+    <% if (locals.message) { %>
+        <h1><%= locals.message %></h1>
+    <% } %>
+
+    <a href="/">Retourà la page d'acueil</a>
+
+    <%- include('../partials/footer.ejs') %>
+
