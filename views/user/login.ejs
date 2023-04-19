@@ -1,0 +1,8 @@
+<%- include('../partials/header.ejs', {title:"Page de connexion"}) %>
+<h1>Connexion</h1>
+<form action="" method="post" class="form">
+<%- include('../components/input.ejs', {type: "email", name:"email"}) %> <%-
+  include('../components/input.ejs', {type: "password", name:"password"}) %>
+  <button type="submit">Connexion</button>
+</form>
+<%- include('../partials/footer.ejs') %>
